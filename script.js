@@ -88,9 +88,15 @@ function playRound(playerSelection, computerSelection) {
         userScore += 1;
         return `You win! ${playerSelection} beats ${computerSelection}!`
 
-    } else {
+    } else if (playerSelection === "Rock" && computerSelection === "Paper") {
         compScore += 1;
-        return `You lose! ${computerSelection} beats ${playerSelection}`
+        return `You lose! ${computerSelection} beats ${playerSelection}!`
+    } else if (playerSelection === "Scissors" && computerSelection === "Rock") {
+        compScore += 1;
+        return `You lose! ${computerSelection} beats ${playerSelection}!`
+    } else if (playerSelection === "Paper" && computerSelection === "Scissors"){
+        compScore += 1;
+        return `You lose! ${computerSelection} beats ${playerSelection}!`
     }
 
 }
