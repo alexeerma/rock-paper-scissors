@@ -76,25 +76,25 @@ function game() {
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "Tie game!"
-    } else if (playerSelection === "Rock" && computerSelection === "Scissors") {
+    } else if (playerSelection === "rock" && computerSelection === "scissors") {
         userScore += 1;
         return `You win! ${playerSelection} beats ${computerSelection}!`
         
-    } else if (playerSelection === "Paper" && computerSelection === "Rock") {
+    } else if (playerSelection === "paper" && computerSelection === "rock") {
         userScore += 1;
         return `You win! ${playerSelection} beats ${computerSelection}!`
         
-    } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
+    } else if (playerSelection === "scissors" && computerSelection === "paper") {
         userScore += 1;
         return `You win! ${playerSelection} beats ${computerSelection}!`
 
-    } else if (playerSelection === "Rock" && computerSelection === "Paper") {
+    } else if (playerSelection === "rock" && computerSelection === "paper") {
         compScore += 1;
         return `You lose! ${computerSelection} beats ${playerSelection}!`
-    } else if (playerSelection === "Scissors" && computerSelection === "Rock") {
+    } else if (playerSelection === "scissors" && computerSelection === "rock") {
         compScore += 1;
         return `You lose! ${computerSelection} beats ${playerSelection}!`
-    } else if (playerSelection === "Paper" && computerSelection === "Scissors"){
+    } else if (playerSelection === "paper" && computerSelection === "scissors"){
         compScore += 1;
         return `You lose! ${computerSelection} beats ${playerSelection}!`
     }
