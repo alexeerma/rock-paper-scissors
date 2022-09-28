@@ -15,6 +15,7 @@ function playRound(round) {
   logRound(playerSelection, computerSelection, winner, round);
 }
 
+// Getting users input, with different validations.
 function playerChoice() {
   let input = prompt("Type Rock, Paper, or Scissors");
   while (input == null) {
@@ -35,6 +36,7 @@ function playerChoice() {
   return input;
 }
 
+// Gettin computers choice on paper rock, scissors
 function computerChoice() {
   return choices[Math.floor(Math.random() * choices.length)];
 }

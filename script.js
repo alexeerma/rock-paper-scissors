@@ -48,12 +48,12 @@ let userScore = 0;
 let compScore = 0;
 
 //game function - play to 5 rounds
-function game() {
-    playRound (i);
-    for (let i = 0; i < 5; i++) {
-        playRound (i);
-     }
-  }
+// function game() {
+//     playRound (i);
+//     for (let i = 0; i < 5; i++) {
+//         playRound (i);
+//      }
+//   }
 
 // Getting computers choice.
 function getComputerChoice(){
