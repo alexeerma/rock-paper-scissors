@@ -1,16 +1,31 @@
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-
 
 .title {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .btn-container {
     display: flex;
     justify-content: space-around;
 }
+.i-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
 .rps-btn {
     padding: 15px 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.icon {
+    margin-right: 10px;
 }

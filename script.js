@@ -67,7 +67,7 @@ function game(roundsTotal = 5) {
 
 let playerScore = 0
 let computerScore = 0
-const buttons = document.querySelectorAll('input')
+const buttons = document.querySelectorAll('button')
 
 function computerPlay() {
     let choices = ['rock', 'paper', 'scissors']
@@ -113,7 +113,7 @@ function playRound(playerSelection) {
     }
 
     document.getElementById('result').innerHTML = result
-    return
+    return;
 }
 
 buttons.forEach(button =>{
