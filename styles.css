@@ -1,0 +1,16 @@
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+.rps-btn {
+    padding: 15px 25px;
+}
